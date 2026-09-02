@@ -6,6 +6,14 @@
 
 A practical, deterministic reverse engineering playbook and toolset designed for AI coding agents and human engineers alike.
 
+<p align="center">
+  <a href="https://www.npmjs.com/package/reverse-engineering-skill"><img src="https://img.shields.io/npm/v/reverse-engineering-skill?style=flat&color=38bdf8&label=npm" alt="npm version" /></a>
+  <a href="https://github.com/PyModel/reverse-engineering-skill/releases"><img src="https://img.shields.io/github/v/tag/PyModel/reverse-engineering-skill?style=flat&color=818cf8&label=release" alt="GitHub tag" /></a>
+  <a href="https://www.npmjs.com/package/reverse-engineering-skill"><img src="https://img.shields.io/npm/dm/reverse-engineering-skill?style=flat&color=10b981&label=downloads" alt="npm downloads" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-c084fc?style=flat" alt="MIT License" /></a>
+  <a href="https://github.com/PyModel/reverse-engineering-skill/stargazers"><img src="https://img.shields.io/github/stars/PyModel/reverse-engineering-skill?style=flat&color=eab308" alt="GitHub Stars" /></a>
+</p>
+
 ---
 
 ## What is this?
@@ -161,6 +169,24 @@ When working on binary reversing, assumptions lead to broken implementations. Ev
 
 ---
 
+## ⚠️ Legal & Ethical Disclaimer
+
+> **IMPORTANT:** This skill, its documentation, templates, and associated scripts are provided **strictly for educational, research, security auditing, interoperability, and defensive analysis purposes**.
+
+### 1. Responsibility & Authorization
+- **Use At Your Own Responsibility:** You are solely responsible for ensuring that your use of this repository, its tools, and the methods described herein complies with all applicable local, national, and international laws, regulations, and contractual agreements (including terms of service and end-user license agreements).
+- **Explicit Permission Required:** Never analyze, decompile, hook, trace, or tamper with binaries, firmware, networks, or applications without **explicit, verified permission** from the copyright owner or authorized entity.
+
+### 2. Intellectual Property & Copyright Protection
+- **Respect Copyrights & Patents:** Decompiled pseudocode and reverse-engineered binary representations may constitute copyrighted works, trade secrets, or proprietary information.
+- **Strict Clean-Room Discipline:** If you use this skill to understand behaviors or protocols for interoperability, adhere strictly to the clean-room methodology documented in [`references/07-cleanroom.md`](references/07-cleanroom.md). Never copy, paste, or incorporate proprietary decompiled code directly into production software. Extract only non-copyrightable functional specifications, interface definitions, and state transitions.
+
+### 3. Limitation of Liability
+- **"AS IS" Provision:** This repository and all included materials are provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose, or non-infringement.
+- **Zero Liability:** Under no circumstances shall the authors, maintainers, contributors, or copyright holders be held liable for any damages, claims, regulatory penalties, or legal liabilities arising from the use, misuse, or application of this skill and its tools.
+
+---
+
 ## License
 
-MIT License. Free for personal, academic, and commercial reverse engineering workflows.
+This project is licensed under the [MIT License](LICENSE). Free for personal, academic, and commercial reverse engineering workflows.
