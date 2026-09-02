@@ -15,8 +15,8 @@
     </linearGradient>
 
     <linearGradient id="glow-badge" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.2" />
-      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.05" />
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#818cf8" stop-opacity="0.06" />
     </linearGradient>
 
     <!-- Grid Pattern -->
@@ -43,16 +43,16 @@
   <circle cx="1020" cy="100" r="160" fill="#818cf8" fill-opacity="0.05" filter="url(#glow)" />
 
   <!-- Decorative Circuit / Hex Column on Right Side -->
-  <g opacity="0.35" font-family="'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace" font-size="11" fill="#64748b">
-    <text x="860" y="70">7F 45 4C 46 02 01 01 00  [ELF64 .text]</text>
-    <text x="860" y="95">48 89 E5 48 83 EC 20 48  mov rbp, rsp</text>
-    <text x="860" y="120">E8 4B FE FF FF 85 C0 75  call sym.auth</text>
-    <text x="860" y="145">CF FA ED FE 01 00 00 0C  [Mach-O ARM64]</text>
-    <text x="860" y="170">FD 7B BA A9 F4 4F 01 A9  stp x29, x30</text>
-    <text x="860" y="195">FF FF FF F1 00 00 04 08  [Go pclntab 1.20+]</text>
-    <text x="860" y="220">65 6E 74 72 6F 70 79 3A  shannon &gt; 7.2</text>
-    <text x="860" y="245">53 53 4C 5F 56 45 52 49  SSL_VERIFY_NONE</text>
-    <text x="860" y="270">6E 70 78 20 61 73 61 72  ipc::pipe_trace</text>
+  <g opacity="0.3" font-family="'JetBrains Mono', 'Fira Code', 'SF Mono', Consolas, monospace" font-size="11" fill="#64748b">
+    <text x="865" y="70">7F 45 4C 46 02 01 01 00  [ELF64 .text]</text>
+    <text x="865" y="95">48 89 E5 48 83 EC 20 48  mov rbp, rsp</text>
+    <text x="865" y="120">E8 4B FE FF FF 85 C0 75  call sym.auth</text>
+    <text x="865" y="145">CF FA ED FE 01 00 00 0C  [Mach-O ARM64]</text>
+    <text x="865" y="170">FD 7B BA A9 F4 4F 01 A9  stp x29, x30</text>
+    <text x="865" y="195">FF FF FF F1 00 00 04 08  [Go pclntab 1.20+]</text>
+    <text x="865" y="220">65 6E 74 72 6F 70 79 3A  shannon &gt; 7.2</text>
+    <text x="865" y="245">53 53 4C 5F 56 45 52 49  SSL_VERIFY_NONE</text>
+    <text x="865" y="270">6E 70 78 20 61 73 61 72  ipc::pipe_trace</text>
   </g>
 
   <!-- Left Accent Vertical Bar -->
@@ -64,7 +64,7 @@
     <g transform="translate(0, 75)">
       <rect width="180" height="26" rx="6" fill="#1e293b" stroke="#334155" stroke-width="1" />
       <circle cx="14" cy="13" r="4" fill="#22c55e" />
-      <text x="26" y="17" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="0.5">AGENT SKILL • V2.0</text>
+      <text x="26" y="17" font-family="'JetBrains Mono', 'SF Mono', Consolas, monospace" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="0.5">AGENT SKILL • V2.0</text>
     </g>
 
     <!-- Main Title -->
@@ -78,34 +78,34 @@
     </text>
 
     <!-- Badges Row -->
-    <g transform="translate(0, 225)">
+    <g transform="translate(0, 222)">
       <!-- Badge 1: Binaries -->
       <g transform="translate(0, 0)">
-        <rect width="145" height="30" rx="6" fill="url(#glow-badge)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.4" />
-        <text x="14" y="19" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="11" font-weight="600" fill="#38bdf8">ELF • PE • Mach-O</text>
+        <rect width="160" height="32" rx="7" fill="url(#glow-badge)" stroke="#38bdf8" stroke-width="1" stroke-opacity="0.5" />
+        <text x="80" y="16" text-anchor="middle" dominant-baseline="central" font-family="'JetBrains Mono', 'SF Mono', Consolas, monospace" font-size="11" font-weight="600" fill="#38bdf8">ELF • PE • Mach-O</text>
       </g>
 
       <!-- Badge 2: Modern Languages -->
-      <g transform="translate(155, 0)">
-        <rect width="165" height="30" rx="6" fill="url(#glow-badge)" stroke="#818cf8" stroke-width="1" stroke-opacity="0.4" />
-        <text x="14" y="19" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="11" font-weight="600" fill="#a5b4fc">Go • Rust • WASM • .NET</text>
+      <g transform="translate(175, 0)">
+        <rect width="210" height="32" rx="7" fill="url(#glow-badge)" stroke="#818cf8" stroke-width="1" stroke-opacity="0.5" />
+        <text x="105" y="16" text-anchor="middle" dominant-baseline="central" font-family="'JetBrains Mono', 'SF Mono', Consolas, monospace" font-size="11" font-weight="600" fill="#a5b4fc">Go • Rust • WASM • .NET</text>
       </g>
 
       <!-- Badge 3: Dynamic & Tooling -->
-      <g transform="translate(330, 0)">
-        <rect width="145" height="30" rx="6" fill="url(#glow-badge)" stroke="#c084fc" stroke-width="1" stroke-opacity="0.4" />
-        <text x="14" y="19" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="11" font-weight="600" fill="#d8b4fe">Frida • Ghidra • MCP</text>
+      <g transform="translate(400, 0)">
+        <rect width="185" height="32" rx="7" fill="url(#glow-badge)" stroke="#c084fc" stroke-width="1" stroke-opacity="0.5" />
+        <text x="92.5" y="16" text-anchor="middle" dominant-baseline="central" font-family="'JetBrains Mono', 'SF Mono', Consolas, monospace" font-size="11" font-weight="600" fill="#d8b4fe">Frida • Ghidra • MCP</text>
       </g>
 
       <!-- Badge 4: Clean-room -->
-      <g transform="translate(485, 0)">
-        <rect width="125" height="30" rx="6" fill="url(#glow-badge)" stroke="#10b981" stroke-width="1" stroke-opacity="0.4" />
-        <text x="14" y="19" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="11" font-weight="600" fill="#34d399">Clean-Room Spec</text>
+      <g transform="translate(600, 0)">
+        <rect width="150" height="32" rx="7" fill="url(#glow-badge)" stroke="#10b981" stroke-width="1" stroke-opacity="0.5" />
+        <text x="75" y="16" text-anchor="middle" dominant-baseline="central" font-family="'JetBrains Mono', 'SF Mono', Consolas, monospace" font-size="11" font-weight="600" fill="#34d399">Clean-Room Spec</text>
       </g>
     </g>
 
     <!-- Bottom Tech Spec Label -->
-    <text x="0" y="285" font-family="'JetBrains Mono', 'SF Mono', monospace" font-size="12" fill="#475569">
+    <text x="0" y="285" font-family="'JetBrains Mono', 'SF Mono', Consolas, monospace" font-size="12" fill="#475569">
       &gt; python3 scripts/triage_binary.py &amp;&amp; frida -l hooks.js &amp;&amp; ghidra_headless
     </text>
   </g>

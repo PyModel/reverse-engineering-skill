@@ -1,6 +1,6 @@
 {
   "name": "reverse-engineering-skill",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Deterministic binary analysis, runtime instrumentation & protocol reverse-engineering skill for AI coding agents.",
   "main": "index.js",
   "bin": {
