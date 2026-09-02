@@ -8,7 +8,6 @@ A practical, deterministic reverse engineering playbook and toolset designed for
 
 <p align="center">
   <a href="https://www.npmjs.com/package/reverse-engineering-skill"><img src="https://img.shields.io/npm/v/reverse-engineering-skill?style=flat&color=38bdf8&label=npm" alt="npm version" /></a>
-  <a href="https://github.com/PyModel/reverse-engineering-skill/releases"><img src="https://img.shields.io/github/v/tag/PyModel/reverse-engineering-skill?style=flat&color=818cf8&label=release" alt="GitHub tag" /></a>
   <a href="https://www.npmjs.com/package/reverse-engineering-skill"><img src="https://img.shields.io/npm/dm/reverse-engineering-skill?style=flat&color=10b981&label=downloads" alt="npm downloads" /></a>
   <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-c084fc?style=flat" alt="MIT License" /></a>
   <a href="https://github.com/PyModel/reverse-engineering-skill/stargazers"><img src="https://img.shields.io/github/stars/PyModel/reverse-engineering-skill?style=flat&color=eab308" alt="GitHub Stars" /></a>
