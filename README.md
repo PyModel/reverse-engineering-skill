@@ -74,6 +74,20 @@ The core rule is simple: **Scripts do the math; the LLM does the semantics.**
 
 ---
 
+## Installation via npm
+
+You can run the tools directly with `npx` or install the package globally:
+
+```bash
+# Run triage on a binary directly without installing:
+npx reverse-engineering-skill triage /path/to/binary
+
+# Or install the skill files into your project's .agent/skills directory:
+npx reverse-engineering-skill install
+```
+
+---
+
 ## Quick Start: Using the Tools
 
 You don't need any complex setup or heavy dependencies to run the core scripts. All Python utilities use standard library modules.

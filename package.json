@@ -1,0 +1,47 @@
+{
+  "name": "reverse-engineering-skill",
+  "version": "1.0.0",
+  "description": "Deterministic binary analysis, runtime instrumentation & protocol reverse-engineering skill for AI coding agents.",
+  "main": "index.js",
+  "bin": {
+    "reverse-engineering-skill": "./bin/cli.js"
+  },
+  "files": [
+    "SKILL.md",
+    "README.md",
+    "index.js",
+    "bin",
+    "scripts",
+    "references",
+    "examples",
+    "assets"
+  ],
+  "scripts": {
+    "test": "node bin/cli.js --version"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PyModel/reverse-engineering-skill.git"
+  },
+  "keywords": [
+    "reverse-engineering",
+    "agent-skill",
+    "binary-analysis",
+    "antigravity",
+    "ghidra",
+    "frida",
+    "elf",
+    "mach-o",
+    "pe",
+    "golang",
+    "rust",
+    "wasm",
+    "clean-room"
+  ],
+  "author": "elkaix",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PyModel/reverse-engineering-skill/issues"
+  },
+  "homepage": "https://github.com/PyModel/reverse-engineering-skill#readme"
+}
