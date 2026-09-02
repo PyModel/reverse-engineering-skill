@@ -1,0 +1,28 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS artifacts
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Ghidra / Disassembly outputs
+decompiled/
+*.rep/
+*.gpr
+
+# Temporary test artifacts
+*.log
+*.tmp
+tmp/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
